@@ -1,0 +1,68 @@
+import { Category } from '../types';
+
+export const categories: Category[] = [
+  {
+    id: 'living-room',
+    name: 'Living Room',
+    slug: 'living-room',
+    description: 'Sculptural seating, accent tables & textured throws for restful gatherings.',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80',
+    itemCount: 24,
+  },
+  {
+    id: 'bedroom',
+    name: 'Bedroom',
+    slug: 'bedroom',
+    description: 'Washed linen bedding, ambient night lamps & serene morning accents.',
+    image: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80',
+    itemCount: 18,
+  },
+  {
+    id: 'dining',
+    name: 'Dining & Kitchen',
+    slug: 'dining',
+    description: 'Hand-thrown stoneware ceramics, organic linen runners & brass serving ware.',
+    image: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80',
+    itemCount: 16,
+  },
+  {
+    id: 'wall-decor',
+    name: 'Wall Decor & Art',
+    slug: 'wall-decor',
+    description: 'Minimalist botanical art, plaster relief canvases & woven wall hangings.',
+    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80',
+    itemCount: 20,
+  },
+  {
+    id: 'lighting',
+    name: 'Artisan Lighting',
+    slug: 'lighting',
+    description: 'Fluted ceramic table lamps, paper lanterns & warm brass pendants.',
+    image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80',
+    itemCount: 14,
+  },
+  {
+    id: 'plants',
+    name: 'Plants & Planters',
+    slug: 'plants',
+    description: 'Indoor statement foliage housed in terracotta & ribbed sandstone pots.',
+    image: 'https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=800&q=80',
+    itemCount: 12,
+  },
+  {
+    id: 'rugs',
+    name: 'Rugs & Textiles',
+    slug: 'rugs',
+    description: 'Hand-tufted organic wool carpets, braided jute runners & plush cushions.',
+    image: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=800&q=80',
+    itemCount: 15,
+  },
+  {
+    id: 'mirrors',
+    name: 'Mirrors & Accents',
+    slug: 'mirrors',
+    description: 'Arched brass mirrors, travertine trays & sculptural marble bookends.',
+    image: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=800&q=80',
+    itemCount: 10,
+  },
+];

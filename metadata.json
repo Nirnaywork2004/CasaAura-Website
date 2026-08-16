@@ -1,0 +1,6 @@
+{
+  "name": "CasaAura - Premium Home Decor",
+  "description": "Modern premium home decor and lifestyle e-commerce store with curated artisan pieces, UPI checkout, order generation, My Orders management, and real-time shipment status tracking timeline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
